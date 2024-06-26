@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import HTMLResponse
 
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyDkeY-vRRTKhjhFj5a2mOthaMzb6mnm0Qg")
+genai.configure(api_key="enter your api key")
 
 app = FastAPI()
 
